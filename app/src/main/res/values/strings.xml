@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TecnoStory</string>
+    <string name="home">Inicio</string>
+    <string name="stories">Historias</string>
+    <string name="info">Info de App</string>
+    <string name="description">Historias de tecnología</string>
+    <string name="featuredContent">Destacado</string>
+    <string name="featuredContentDescription1">El sistema operativo del gigante del internet. Un poco de historia de uno de los sistemas operativos para móviles más usados de la actualidad.</string>
+    <string name="featuredContentDescription2">El sistema operativo de los populares móviles de la manzana, conoce un poco más a este popular sistema operativo.</string>
+    <string name="continueReading">Leer más</string>
+
+    <string name="devNotes">TecnoStory es una simple aplicación para ver historias</string>
+
+    <string name="allStories">Todas las historias</string>
+
+    <string name="cardDescription1">Descripción</string>
+
+    <string name="androidTitle">Sistema Operativo Android</string>
+    <string name="androidSubTitle">Descripción</string>
+    <string name="android">Android es un sistema operativo móvil basado en el núcleo Linux y otros software
+    de código abierto. Fue diseñado para dispositivos móviles con pantalla táctil, como teléfonos inteligentes
+    , tabletas, relojes inteligentes WearOS, automóviles con otros sistemas a través de Android Auto,
+     al igual los automóviles con el sistema Android Automotive y televisores Android TV.
+    Inicialmente fue desarrollado por Android Inc., que fue adquirido por Google en 2005. Android fue presentado en 2007 junto con la fundación del
+        Open Handset Alliance (un consorcio de compañías de hardware, software y telecomunicaciones) para avanzar en los estándares abiertos de los dispositivos móviles.
+        El código fuente principal de Android se conoce como Android Open Source Project (AOSP), que se licencia principalmente bajo la Licencia Apache. Android es el
+        sistema operativo móvil más utilizado del mundo, con una cuota de mercado superior al 90 % al año 2018, muy por encima de IOS.
+    Según los documentos secretos filtrados en 2013 y 2014, el sistema operativo es uno de los objetivos de las agencias de inteligencia internacionales.
+    </string>
+    <string name="androidSubTitle2">Historia</string>
+    <string name="android2">En julio de 2005, la multinacional Google compra Android Inc. El 5 de noviembre de 2007 se crea la Open Handset Alliance, un conglomerado de fabricantes y desarrolladores de hardware, software y operadores de servicio. El mismo día se anuncia la primera versión del sistema operativo: Android 1.0 Apple Pie. Los terminales con Android no estarían disponibles hasta el año 2008. Las unidades vendidas de teléfonos inteligentes con Android se ubican en el primer puesto en los Estados Unidos, en el segundo y tercer trimestres de 2010, con una cuota de mercado de 43.6 % en el tercer trimestre. A escala mundial alcanzó una cuota de mercado del 50.6 % durante el cuarto trimestre de 2011, más del doble que el segundo sistema operativo. (iOS de Apple, Inc.)
+    Tiene una gran comunidad de desarrolladores creando aplicaciones para extender la funcionalidad de los dispositivos. A principios de 2018 se superaban ya los dos millones de aplicaciones disponibles en Google Play Store, la tienda de aplicaciones oficial de Android; a estas habría que añadir las disponibles en otras tiendas no oficiales, como Aptoide. Google Play es la tienda de aplicaciones en línea administrada por Google, aunque existe la posibilidad de obtener software externamente. La tienda F-Droid es completamente de código abierto así como sus aplicaciones, una alternativa al software privativo. Los programas están escritos en el lenguaje de programación Java. No obstante, no es un sistema operativo libre de malware, aunque la mayoría de ello es descargado de sitios de terceros.
+    El anuncio del sistema Android se realizó el 5 de noviembre de 2007 junto con la creación de la Open Handset Alliance, un consorcio de 78 compañías de hardware, software y telecomunicaciones dedicadas al desarrollo de estándares abiertos para dispositivos móviles. Google liberó la mayoría del código de Android bajo la licencia Apache, una licencia libre y de código abierto.
+    La estructura del sistema operativo Android se compone de aplicaciones que se ejecutan en un framework Java de aplicaciones orientadas a objetos sobre el núcleo de las bibliotecas de Javo en una máquina virtual Dalvik con compilación en tiempo de ejecución hasta la versión 5.0, luego cambió al entorno Android Runtime (ART).
+    Las bibliotecas escritas en lenguaje C incluyen un administrador de interfaz gráfica (surface manager), un framework OpenCore, una base de datos relacional SQLite, una Interfaz de programación de API gráfica OpenGL ES 2.0 3D, un motor de renderizado WebKit, un motor gráfico SGL, SSL y una biblioteca estándar de C Bionic. El sistema operativo está compuesto por 12 millones de líneas de código, incluyendo 3 millones de líneas de XML, 2.9 millones de líneas de lenguaje C, 2.2 millones de líneas de Java y 1.77 millones de líneas de C++.
+    </string>
+
+    <string name="iosTitle">iOS</string>
+    <string name="iosSubTitle">Descripción</string>
+    <string name="ios">iOS es un sistema operativo móvil de código cerrado desarrollado por Apple Inc. Originalmente desarrollado para el iPhone (iPhone OS), después se ha usado en dispositivos como el iPod touch y el iPad. Desde el 2019 el iPad pasó a tener otro sistema operativo, esto para diferenciarlo del IPhone, aunque iPadOS básicamente es iOS pero con otro nombre.
+    La última versión del sistema operativo es iOS 16 (lanzada en septiembre de 2022) que sustituye a iOS 15 con el objetivo principal de mejorar la experiencia del usuario, integrando cambios relevantes, entre ellos el nuevo Modo Oscuro o la posibilidad de utilizar memorias externas con la app Archivos del sistema. También con este lanzamiento existe una disputa entre Apple y Facebook por el permiso añadido para que los usuarios decidan si quieren dejar que recopilen los datos las App o no.
+    Los elementos de control consisten de deslizadores, interruptores y botones. La respuesta a las órdenes del usuario es inmediata y provee una interfaz fluida. La interacción con el sistema operativo incluye gestos como deslices, toques, pellizcos, los cuales tienen definiciones diferentes dependiendo del contexto de la interfaz. Se utilizan acelerómetros internos para hacer que algunas aplicaciones respondan a sacudir el dispositivo (por ejemplo, para el comando deshacer) o rotarlo en tres dimensiones (un resultado común es cambiar de modo vertical al apaisado u horizontal).
+    En el marco de las filtraciones acerca de los programas de vigilancia mundial de 2013-2014 de Edward Snowden, Der Spiegel publicó que la NSA estadounidense tiene grupos de trabajo dedicados a descifrar los sistemas de seguridad de iOS; además tiene pequeños programas conocidos como scripts que permiten a la agencia vigilar a los usuarios de las distintas versiones del sistema iOS su geolocalización, notas de voz, fotos y otras aplicaciones como Google Earth, Facebook.
+    iOS se deriva de macOS, que a su vez está basado en Darwin BSD, y por lo tanto es un sistema operativo Tipo Unix.
+    iOS cuenta con cuatro capas de abstracción: la capa del núcleo del sistema operativo, la capa de "Servicios Principales", la capa de "Medios" y la capa de "Cocoa Touch".
+    </string>
+    <string name="iosSubTitle2">Historia</string>
+    <string name="ios2">
+        Apple reveló la existencia de iPhone OS en la Macworld Conference and Expo del 9 de enero de 2007, aunque el sistema no tuvo un nombre oficial hasta que salió la primera versión beta del iPhone SDK un año más tarde, el 6 de marzo de 2008. Antes de esto se consideraba simplemente que el iPhone ejecutaba OS X o una versión modificada de NewtonOS. Desde ese momento se llamaría iPhone OS. El lanzamiento del iPhone OS tuvo lugar el 29 de junio de 2010 y no es hasta el lanzamiento del iPad - que también lo utiliza como sistema operativo - que pasa a llamarse simplemente iOS.
+El interés en el SDK aumentaría en meses siguientes debido al progresivo crecimiento de la plataforma iPhone, que se vio incrementado en septiembre de 2007 del iPod Touch, un dispositivo con las capacidades multimedia del iPhone pero sin la capacidad de hacer llamadas telefónicas solo por redes.
+El 27 de enero de 2010 Steve Jobs, CEO de Apple, anunció el iPad, un dispositivo muy similar al iPod Touch pero con un propósito orientado hacia la industria de contenidos. Este dispositivo, apoyado en una pantalla táctil de mayor dimensión, compartiría sistema operativo con sus dos exitosos hermanos, y vendría acompañado de una aplicación oficial para la compra y lectura de libros electrónicos, iBooks.
+A fecha de abril de 2010 se estima por encima de 185 000 las aplicaciones disponibles para iPhone OS a través de la App Store El 7 de junio de 2010, durante la presentación del iPhone 4, Steve Jobs anunció que iPhone OS pasaría a ser llamado oficialmente como iOS.
+El 12 de septiembre de 2012 se presenta iOS 6 durante la pres1 El 10 de junio de 2013 es presentado iOS 7 en la WWDC 2013 a las 10:00 tiempo de San Francisco como "El mayor cambio de iOS desde el iPhone original", cambia por completo el diseño gráfico del sistema, haciéndolo más plano y con nuevos íconos, trae nuevas características como AirDrop, Filtros de cámara, Fondo dinámico entre muchas otras, ese mismo día se liberó la beta 1 para desarrolladores. En la misma conferencia se dieron a conocer los datos oficiales de iOS a la fecha, indican que han sido vendidos más de 600 millones de iDevices, los usuarios de iOS utilizan un 50 % más sus dispositivos que los de Android, el mercado web lo domina iOS con un 60 % y en tabletas el iPad tiene el 82 % del tráfico web, se ubica en el lugar #1 de satisfacción al cliente con un 73 % seguido por Windows Phone con el 53 %, y el 93 % de los usuarios tienen instalada la versión actual del sistema.
+iOS 8 es el sucesor de iOS 7, compatible con estos dispositivos de iPhone: 4s, 5, 5c, 5s, 6, 6 Plus, iPod Touch: 5, 6 y el iPad 2 en adelante, que fue presentado el 2 de junio de 2014 en la Conferencia Mundial de Desarrolladores.
+El 13 de junio de 2016, Apple presentó la próxima versión del sistema operativo. Una nueva versión con algunas novedades interesantes como un completo rediseño de la pantalla de bloqueo, notificaciones más interactivas, mayor presencia de widgets gracias al apoyo de la tecnología 3D Touch y muchas otras novedades muy necesarias para usuarios de iPhone, iPad y iPod Touch.
+Actualmente, la última actualización disponible es iOS 15. En septiembre de 2021, según Mixpanel, el 93% de los dispositivos iOS compatibles con iOS 14 corren con alguna de las diferentes versiones de este sistema operativo.
+
+    </string>
+
+
+
+</resources>

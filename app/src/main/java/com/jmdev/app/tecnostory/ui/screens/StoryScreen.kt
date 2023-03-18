@@ -28,7 +28,7 @@ fun Story(
         Modifier
             .verticalScroll(rememberScrollState())
     ) {
-        val (topImage, title, subTitle, text) = createRefs()
+        val (topImage, title, text) = createRefs()
 
         Image(
             painter, "",

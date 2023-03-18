@@ -2,7 +2,6 @@
 
 package com.jmdev.app.tecnostory.ui.screens
 
-import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
@@ -23,7 +22,6 @@ import com.jmdev.app.tecnostory.data.Screens
 import com.jmdev.app.tecnostory.ui.components.CardContent
 import com.jmdev.app.tecnostory.ui.theme.dimensions
 
-@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun StoriesScreen(navController: NavController) {
     ConstraintLayout(
@@ -31,7 +29,7 @@ fun StoriesScreen(navController: NavController) {
             .verticalScroll(rememberScrollState())
             .clip(shape = RoundedCornerShape(30.dp))) {
 
-        val (card1, card2, TopTitle) = createRefs()
+        val (card1, card2, card3, TopTitle) = createRefs()
 
         Text(
             stringResource(R.string.allStories),
@@ -51,7 +49,7 @@ fun StoriesScreen(navController: NavController) {
                     top.linkTo(TopTitle.bottom)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
-                    bottom.linkTo(card2.top, margin = 10.dp)
+                    bottom.linkTo(card2.top, 10.dp)
                 }
                 .height(dimensions.cardHeight)
                 .width(dimensions.cardWidth),
@@ -70,10 +68,10 @@ fun StoriesScreen(navController: NavController) {
         Card(
             Modifier
                 .constrainAs(card2) {
-                    top.linkTo(card1.bottom, margin = 20.dp)
-                    start.linkTo(card2.start)
+                    top.linkTo(card1.bottom, 20.dp)
+                    start.linkTo(card1.start)
                     end.linkTo(card1.end)
-                    bottom.linkTo(parent.bottom, margin = 20.dp)
+                    bottom.linkTo(card3.top, 10.dp)
                 }
                 .height(dimensions.cardHeight)
                 .width(dimensions.cardWidth),
@@ -89,5 +87,28 @@ fun StoriesScreen(navController: NavController) {
                 destination = Screens.iosStory.Route
             )
         }
+        Card(
+            Modifier
+                .constrainAs(card3) {
+                    top.linkTo(card2.bottom, 20.dp)
+                    start.linkTo(card2.start)
+                    end.linkTo(card2.end)
+                    bottom.linkTo(parent.bottom, 20.dp)
+                }
+                .height(dimensions.cardHeight)
+                .width(dimensions.cardWidth),
+            shape = RoundedCornerShape(30.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant
+            )
+        ) {
+            CardContent(
+                painterResource = R.drawable.jetpackcompose,
+                stringResource = R.string.card,
+                navController,
+                destination = Screens.App_info.Route
+            )
+        }
+
     }
 }

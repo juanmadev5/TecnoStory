@@ -23,8 +23,6 @@ import androidx.navigation.NavController
 import com.jmdev.app.tecnostory.R
 import com.jmdev.app.tecnostory.ui.theme.dimensions
 
-
-
 @Composable
 fun CardContent(
     painterResource: Int,

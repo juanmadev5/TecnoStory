@@ -9,9 +9,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.jmdev.app.tecnostory.R
-import com.jmdev.app.tecnostory.ui.components.Story
 import com.jmdev.app.tecnostory.ui.screens.HomeScreen
 import com.jmdev.app.tecnostory.ui.screens.StoriesScreen
+import com.jmdev.app.tecnostory.ui.screens.Story
 import com.jmdev.app.tecnostory.ui.screens.appInfoScreen
 
 @Composable
@@ -57,6 +57,18 @@ fun NavHostController(
                 Text2 = stringResource(R.string.ios2)
             )
         }
+        composable(Screens.Story3.Route) {
+
+        }
+        composable(Screens.Story4.Route) {
+
+        }
+        composable(Screens.Story5.Route) {
+
+        }
+        composable(Screens.Story6.Route) {
+
+        }
     }
 }
 /*
@@ -66,8 +78,12 @@ sealed class Screens(val Route: String) {
     object Home : Screens("home")
     object Stories_screen: Screens("stories screen")
     object App_info: Screens("app info")
+
     //All Histories
     object AndroidStory : Screens("androidStory")
     object iosStory : Screens("pcStory")
-    object Story3 : Screens("story")
+    object Story3 : Screens("story 3")
+    object Story4 : Screens("story 4")
+    object Story5 : Screens("story 5")
+    object Story6 : Screens("story 6")
 }

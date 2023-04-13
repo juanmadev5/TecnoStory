@@ -24,7 +24,6 @@ import com.jmdev.app.tecnostory.ui.components.CardContent
 import com.jmdev.app.tecnostory.ui.components.Menu
 import com.jmdev.app.tecnostory.ui.theme.dimensions
 
-@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun HomeScreen(
     navController: NavController

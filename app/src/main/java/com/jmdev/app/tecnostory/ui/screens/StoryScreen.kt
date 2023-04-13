@@ -1,4 +1,4 @@
-package com.jmdev.app.tecnostory.ui.components
+package com.jmdev.app.tecnostory.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -32,7 +32,7 @@ fun Story(
         Modifier
             .verticalScroll(rememberScrollState())
     ) {
-        val (topImage, title, subTitle, text) = createRefs()
+        val (topImage, title, text) = createRefs()
 
         Image(
             painter, "",

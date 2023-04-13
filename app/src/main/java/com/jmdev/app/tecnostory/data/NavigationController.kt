@@ -59,15 +59,13 @@ fun NavHostController(
         }
     }
 }
-
 /*
 * Screen routes
 */
 sealed class Screens(val Route: String) {
     object Home : Screens("home")
-    object Stories_screen : Screens("stories screen")
-    object App_info : Screens("app info")
-
+    object Stories_screen: Screens("stories screen")
+    object App_info: Screens("app info")
     //All Histories
     object AndroidStory : Screens("androidStory")
     object iosStory : Screens("pcStory")

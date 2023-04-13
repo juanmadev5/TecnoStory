@@ -29,7 +29,8 @@ fun StoriesScreen(navController: NavController) {
     ConstraintLayout(
         Modifier
             .verticalScroll(rememberScrollState())
-            .clip(shape = RoundedCornerShape(30.dp))) {
+            .clip(shape = RoundedCornerShape(30.dp))
+    ) {
 
         val (card1, card2, TopTitle) = createRefs()
 

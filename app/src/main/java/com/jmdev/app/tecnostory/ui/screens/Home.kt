@@ -113,6 +113,7 @@ fun HomeScreen(
                 .constrainAs(more) {
                     start.linkTo(parent.start, margin = 20.dp)
                     top.linkTo(card.bottom, margin = 30.dp)
+                    bottom.linkTo(parent.bottom, margin = 20.dp)
                 }
                 .height(60.dp),
             elevation = ButtonDefaults.buttonElevation(8.dp)

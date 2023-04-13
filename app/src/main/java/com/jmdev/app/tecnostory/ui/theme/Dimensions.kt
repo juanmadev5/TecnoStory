@@ -40,7 +40,7 @@ data class Sw240dp(
     override val storyText: TextUnit = 30.sp,
     override val onStoryImageWidth: Dp = 400.dp,
     override val onStoryImageHeight: Dp = 210.dp
-): Dimensions
+) : Dimensions
 
 data class Sw320dp(
     override val topTitle: TextUnit = 66.sp,
@@ -56,7 +56,7 @@ data class Sw320dp(
     override val storyText: TextUnit = 28.sp,
     override val onStoryImageWidth: Dp = 400.dp,
     override val onStoryImageHeight: Dp = 210.dp
-): Dimensions
+) : Dimensions
 
 //
 data class Sw480dp(
@@ -73,7 +73,7 @@ data class Sw480dp(
     override val storyText: TextUnit = 16.sp,
     override val onStoryImageWidth: Dp = 400.dp,
     override val onStoryImageHeight: Dp = 212.dp
-): Dimensions
+) : Dimensions
 
 data class Large(
     override val topTitle: TextUnit = 16.sp,
@@ -89,7 +89,7 @@ data class Large(
     override val storyText: TextUnit = 18.sp,
     override val onStoryImageWidth: Dp = 400.dp,
     override val onStoryImageHeight: Dp = 210.dp
-): Dimensions
+) : Dimensions
 
 
 val LocalSw240dpDimensions = compositionLocalOf { Sw240dp() }

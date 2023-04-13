@@ -23,6 +23,7 @@ import com.jmdev.app.tecnostory.ui.components.CardContent
 import com.jmdev.app.tecnostory.ui.components.Menu
 import com.jmdev.app.tecnostory.ui.theme.dimensions
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     navController: NavController
